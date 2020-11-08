@@ -33,3 +33,11 @@
 [International Morse Code](https://morsecode.world/international/morse2.html)
 
 [RaspberryPi](https://www.raspberrypi.org/)
+
+[GPIO](https://www.raspberrypi.org/documentation/usage/gpio/)
+
+[Debugging](https://code.visualstudio.com/docs/python/debugging)
+
+[Pylint](https://www.pylint.org/)
+
+[Mypy](https://mypy.readthedocs.io/en/stable/)
