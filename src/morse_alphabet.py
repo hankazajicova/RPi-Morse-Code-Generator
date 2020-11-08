@@ -1,6 +1,10 @@
-DOT = 'dot' #1
-COMMA = 'coma' #111
-PAUSE = 'pause' #0
+DOT = 'dot' # 1
+COMMA = 'coma' # 111
+PAUSE = 'pause' # 0
+
+DOT_SYMBOL = "."
+COMMA_SYMBOL = "_"
+PAUSE_SYMBOL = " "
 
 # morse alphabet
 morse_code = {
@@ -32,5 +36,19 @@ morse_code = {
     "y" : [COMMA, DOT, COMMA, COMMA],
     "z" : [COMMA, COMMA, DOT, DOT],
     "." : [DOT, COMMA, DOT, COMMA, DOT, COMMA],
-    "," : [COMMA, COMMA, DOT, DOT, COMMA, COMMA]
+    "," : [COMMA, COMMA, DOT, DOT, COMMA, COMMA],
+    "?" : [DOT, DOT, COMMA, COMMA, DOT, DOT],
+    "!" : [COMMA, DOT, COMMA, DOT, COMMA, COMMA],
+    "'" : [DOT, COMMA, COMMA, COMMA, COMMA, DOT],
+    ":" : [COMMA, COMMA, COMMA, DOT, DOT, DOT],
+    "0" : [COMMA, COMMA, COMMA, COMMA, COMMA],
+    "1" : [DOT, COMMA, COMMA, COMMA, COMMA],
+    "2" : [DOT, DOT, COMMA, COMMA, COMMA],
+    "3" : [DOT, DOT, DOT, COMMA, COMMA],
+    "4" : [DOT, DOT, DOT, DOT, COMMA],
+    "5" : [DOT, DOT, DOT, DOT, DOT],
+    "6" : [COMMA, DOT, DOT, DOT, DOT],
+    "7" : [COMMA, COMMA, DOT, DOT, DOT],
+    "8" : [COMMA, COMMA, COMMA, DOT, DOT],
+    "9" : [COMMA, COMMA, COMMA, COMMA, DOT]
 }
